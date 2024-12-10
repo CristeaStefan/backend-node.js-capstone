@@ -24,7 +24,7 @@ app.use(express.json());
 
 // Route files
 const secondChanceRoutes = require('./routes/secondChanceItemsRoutes');
-const authRoutes = require('./routes/authRoutes');
+const authRoutes = require('./authRoutes');
 const searchRoutes = require('./routes/searchRoutes');
 const pinoHttp = require('pino-http');
 const logger = require('./logger');
